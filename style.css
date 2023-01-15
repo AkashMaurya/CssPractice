@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+
+
+nav{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    top:0;
+    position: sticky;;
+    width:100%;
+}
+
+#logo {
+    font-size: 2rem;
+    color: blanchedalmond
+}
+
+#menus {
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+
+#btn {
+    padding: 5px;
+    font-size: 1.4rem;
+    border: 1px solid;
+    border-radius: 10px;
+    color: black;
+    ;
+}
+
+.menu-item:hover {
+    color: rgb(11, 118, 211);
+    cursor: pointer;
+}
+
+#logo:hover {
+    color: rgb(102, 99, 90);
+    cursor: pointer;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+#mob {
+    font-size: 1.7rem;
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    #mob{
+        display: block;
+    }
+    .menu-item {
+        display: none;
+    }
+
+    #logo,
+    #mob1 {
+        font-size: 1.5rem;
+    }
+
+    #mob1 {
+        text-align: center;
+        display: inline;
+        position: fixed;
+        left:45%;   
+        justify-self: center;
+    }
+
+    .below-item {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    #belowBtn {
+      
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+
+
+
+}
+
+
+#card {
+    background-color: rgb(199, 199, 193);
+    width: 30%;
+ 
+}
+
+footer{
+    position: sticky;
+    top:100%;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color:white !important;
+  
+}
+a:link{
+ text-decoration: none;
+ color:white
+}

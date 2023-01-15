@@ -1,0 +1,39 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateY(300px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}
+@keyframes slideInRight {
+    from {
+        transform: translateY(300px)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}
+
+.heading-1{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    /*how many times wants to run animation */
+    animation-iteration-count: 1;
+
+    animation-direction:normal;
+
+    animation-fill-mode:none;
+    transition: 1s;
+}
+
+
+/* .heading-1:hover{
+    animation-name: slideInRight ease;
+    transition: 1s;
+} */
+

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+footer {
+
+    color: white;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 2em;
+    padding:20px
+
+}

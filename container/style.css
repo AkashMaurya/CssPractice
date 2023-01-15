@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #264653;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+#menus {
+    font-size: 1.3rem;
+    display: inline-block;
+}
+
+#logo1 {
+    font-size: 2rem;
+    padding: 0 0 0 4rem;
+
+}
+
+
+.menu-item {
+    text-decoration: none;
+    margin-right: 2rem;
+    color: #ffffff;
+}
+
+a:link::before {
+    text-decoration: none;
+}
+
+a:link::after {
+    text-decoration: none;
+}
+
+#btn {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #e9c46a;
+    color: black;
+}
+
+#btn1 {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+#mobile-menu-open,
+#mobile-menu-close {
+    display: none;
+}
+
+@media screen and (max-width: 1140px) {
+    #logo1 {
+        font-size: 1.5rem;
+        padding: 0 0 0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .menu-item {
+        display: none;
+    }
+
+    a:link::before {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:link::after {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#mobile-menu-open {
+    display: inline-block;
+}
+
+#mobile-view-menu {
+    display: flex;
+    background-color: #2a9d8f;
+    color: black;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-item1 {
+    margin: 20px, 0;
+    font-size:1.5rem;
+    text-decoration: none;
+    margin: 2rem, 0;
+    padding: 1rem;
+    transition: 1s;
+}
+
+.menu-item:hover {
+    background-color: cornflowerblue;
+}
+
+
+
+
+
+
+/* container style Code  starts here */
+@keyframes myContainer {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+@keyframes mymove {
+    /* to {
+        margin: 0 8rem;
+    }
+
+    from {
+        margin: 0 4;
+    }
+
+    to {
+        margin: 0 8rem;
+    }
+    
+    from {
+        margin: 0 4;
+    } */
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem 2rem; */
+    /* background-color: red; */
+    /* animation: myContainer 4s infinite; */
+}
+
+#pic {
+    margin: 0 0 0 8rem;
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 25px;
+    transition: 5s;
+    /* animation: mymove 1s infinite ; */
+
+}
+
+#logo,
+span {
+    font-size: 8rem;
+    text-align: center;
+    transition: 1s;
+
+}
+
+span {
+    color: yellowgreen;
+}
+
+#pic:hover {
+    zoom: 1;
+    transition: 1s;
+    transform: scale(1.2)
+}
+
+.title:hover {
+    animation: ease-in-out;
+    transition: 1s ease-in;
+    cursor: pointer;
+    transform: scale(1.2)
+}

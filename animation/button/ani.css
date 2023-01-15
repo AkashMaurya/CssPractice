@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+
+div {
+    height: 1000px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: pink;
+    font-size: 2em;
+    border: 10px solid rgb(216, 17, 51);
+    border-radius: 7px;
+    cursor: pointer;
+    color: rgb(216, 17, 51);
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+    align-items: center;
+}
+.btn:hover{
+    transform: translateY(-20px);
+    background-color: rgb(177, 3, 32);
+    color:white;
+    border: 10px solid rgb(177, 3, 32);
+    border-radius: 7px;
+}
