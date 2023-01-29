@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Buenard&family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Buenard', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mysection {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #023047;
+}
+
+#section {
+    background: #f7d275;
+    border-radius: 10px;
+    width: 25%;
+    padding: 30px 0;
+    box-shadow: 5px 5px #c09e49;
+    outline-style: green;
+}
+
+#login {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Buenard', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.label-text .input-text {
+    font-family: 'Buenard', serif;
+}
+
+.input-text {
+    padding: 10px 10px 10px 5px;
+    border-radius: 4px;
+    border: none;
+    outline-color: #023047;
+}
+
+.myBtn {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+
+#btnLogin {
+    background-color: #FFB703;
+    transition: 1s ease;
+}
+
+#btnSignUp {
+    background-color: #023047;
+    color: white;
+    transition: 1s ease;
+}
+
+#btnLogin:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color: #f7f3e9;
+}
+
+#btnSignUp:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color: #f7f3e9;
+    color: black;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+a:hover {
+    transition: 500ms;
+    color: white;
+}
+
+#myimg {
+    transition: 1ms;
+}
+
+#myimg:hover {
+
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+    transition: 2ms;
+}
