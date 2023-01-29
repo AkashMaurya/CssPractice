@@ -20,6 +20,7 @@ body {
     background-color: #023047;
 }
 
+
 #section {
     background: #f7d275;
     border-radius: 10px;
@@ -102,7 +103,96 @@ a:hover {
 }
 
 #myimg:hover {
-
     transform: translateX(10px) rotate(10deg) translateY(5px);
     transition: 2ms;
+}
+
+@media (max-width: 1100px) {
+    #mysection {
+        display: flex;
+        flex-direction: column;
+        background-color: #023047;
+   
+        position: relative;
+    }
+    #myimg{
+        width: 80%;
+        height: auto;
+        
+    }
+    #section {
+        background: #f7d275;
+        border-radius: 10px;
+        width:50%;
+        padding: 30px 0;
+        box-shadow: 5px 5px #c09e49;
+        outline-style: green;
+    }
+    .myBtn {
+        font-size: .8em;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        padding:10 20px;
+    }
+}
+
+@media (max-width: 786px) {
+    #mysection {
+        display: flex;
+        flex-direction: column;
+        background-color: #023047;
+   
+        position: relative;
+    }
+    #myimg{
+        width: 80%;
+        height: auto;
+        
+    }
+    #section {
+        background: #f7d275;
+        border-radius: 10px;
+        width:80%;
+        padding: 30px 0;
+        box-shadow: 5px 5px #c09e49;
+        outline-style: green;
+    }
+    .myBtn {
+        font-size: .8em;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        padding:10 20px;
+    }
+}
+
+@media (max-width: 986px) {
+    #mysection {
+        display: flex;
+        flex-direction: column;
+        background-color: #023047;
+   
+        position: relative;
+    }
+    #myimg{
+        width: 70%;
+        height: auto;
+        
+    }
+    #section {
+        background: #f7d275;
+        border-radius: 10px;
+        width:80%;
+        padding: 30px 0;
+        box-shadow: 5px 5px #c09e49;
+        outline-style: green;
+    }
+    .myBtn {
+        font-size: .8em;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        padding:10 20px;
+    }
 }
